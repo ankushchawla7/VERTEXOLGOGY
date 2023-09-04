@@ -261,6 +261,9 @@ label span {
     animation: mymove 2s infinite;
     animation-direction: linear;
 }
+.logo{
+    cursor: pointer;
+}
 
 @keyframes mymove {
     0% {
