@@ -186,3 +186,13 @@
         width: 75%;
     }
 }
+
+@media (min-width:1220px) and (max-width:1600px) {
+    .youtube-collection {
+        left: -9% !important;
+    }
+
+    .facebook-collection {
+        right: -9% !important;
+    }
+}

@@ -198,6 +198,7 @@ input {
     top: 50%;
     left: 0%;
     letter-spacing: 2.6px;
+    z-index: -1;
 }
 
 .facebook-collection {
@@ -205,6 +206,7 @@ input {
     top: 50%;
     right: 0%;
     letter-spacing: 2.6px;
+    z-index: -1;
 }
 
 .gras-right {
@@ -322,8 +324,8 @@ label span {
     }
 }
 
-@media (max-width:1600px) {
-    .d-16none {
+@media (max-width:1220px) {
+    .d-12none {
         display: none;
     }
 }
