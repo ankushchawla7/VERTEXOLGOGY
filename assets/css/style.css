@@ -41,10 +41,6 @@
     padding-top: 26px;
 }
 
-.pb-100 {
-    padding-bottom: 100px;
-}
-
 .hero-heading-shadow {
     text-shadow: 0px 4.909390449523926px 4.909390449523926px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
@@ -107,13 +103,15 @@
 }
 
 .responsive .slick-list::after {
-    content: ' ';
+    content: "";
+    background-position: center;
+    background-image: url("../images/png/main-section-bg-img.png");
+    background-size: cover;
     position: absolute;
     top: 0px;
     bottom: 0px;
     width: 4000px;
     right: 100%;
-    background-color: white;
 }
 
 .responsive.slick-slide[aria-hidden="true"] {
@@ -165,6 +163,7 @@ input {
     border: none;
     width: 65%;
     outline: none;
+    background: none !important;
 }
 
 .submit-butn {
@@ -261,7 +260,8 @@ label span {
     animation: mymove 2s infinite;
     animation-direction: linear;
 }
-.logo{
+
+.logo {
     cursor: pointer;
 }
 
