@@ -108,8 +108,8 @@
     background-image: url("../images/png/main-section-bg-img.png");
     background-size: cover;
     position: absolute;
-    top: 0px;
-    bottom: 0px;
+    top: -5px;
+    bottom: -5px;
     width: 4000px;
     right: 100%;
 }
